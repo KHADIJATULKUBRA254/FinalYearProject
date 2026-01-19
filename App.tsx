@@ -252,9 +252,9 @@ const App: React.FC = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {[
-                      { name: "Sarah Khan", role: "AI Research Lead", initial: "SK" },
-                      { name: "Syed Hamza", role: "Full Stack Developer", initial: "SH" },
-                      { name: "Aliza Ahmed", role: "UI/UX Designer", initial: "AA" }
+                      { name: "Iqra Mahjabeen", role: "Project Lead & Backend Developer", initial: "IM" },
+                      { name: "Umair Ahmed", role: "Frontend Developer & UI/UX Designer", initial: "UA" },
+                      { name: "Khadija-Tul-Kubra", role: "QA Specialist & Documenter", initial: "KTK" }
                     ].map((member, i) => (
                       <div key={i} className="bg-slate-50/40 border border-slate-100 p-10 rounded-[2.5rem] group hover:bg-white hover:shadow-xl hover:border-blue-100 transition-all duration-500">
                          <div className="w-24 h-24 bg-white rounded-full mx-auto mb-6 flex items-center justify-center border border-slate-100 text-2xl font-bold text-slate-400 group-hover:text-blue-600 group-hover:scale-110 transition-all">
